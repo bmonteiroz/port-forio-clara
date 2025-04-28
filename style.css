@@ -1,10 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
-:root{
-    --cor-principal:rgba(85, 85, 250, 0.815);
-    --cor-secundaria:rgb(255, 251, 26);
-    --cor-destaque: rgb(255, 0, 149);
+@import
+url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+:root {
+--cor-principal: #6E859F;
+--cor-secundaria: #284260;
+--cor-destaque: #C92BFC;
 }
-
-body{
-    font-family:"Underdog" ; sans-serif;
-}
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: #f8f9fa;
+    }
+    h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    }
+    .lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+    text-decoration: none;
+    }
+    a, .btn-link:hover {
+    color: var(--cor-principal);
+    }
+    a:hover {
+    color: var(--cor-destaque);
+    }
